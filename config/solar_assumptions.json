@@ -1,0 +1,40 @@
+{
+  "_comment": "Adjustable physical assumptions for the SolarSmart AI simulator. These are NOT learned by the ML model. Edit and restart the app to change the defaults.",
+
+  "angle": {
+    "model": "cosine",
+    "diffuse_fraction": 0.0,
+    "_note": "Idealised direct-beam geometry: factor = (1 - d) * cos(angle) + d, where d is diffuse_fraction. d = 0 gives the pure cosine law (0 at 90 deg). Reflection (Fresnel) losses and the atmosphere are NOT modelled."
+  },
+
+  "shading": {
+    "model": "bypass_diode",
+    "available_models": ["linear", "bypass_diode", "power_law"],
+    "linear": {
+      "_note": "Output falls in direct proportion to the shaded area: factor = 1 - s."
+    },
+    "bypass_diode": {
+      "n_substrings": 3,
+      "activation_shaded_fraction": 0.5,
+      "_note": "Panel split into n_substrings protected by bypass diodes. The shadow sweeps across the substrings in order. A substring whose shaded fraction reaches the activation threshold is bypassed (contributes 0); otherwise it contributes its unshaded fraction."
+    },
+    "power_law": {
+      "exponent": 1.5,
+      "_note": "Illustrative nonlinear loss for series-limited wiring: factor = (1 - s) ** exponent. The exponent is a tunable assumption, not a fitted value."
+    }
+  },
+
+  "defaults": {
+    "angle_deg": 0,
+    "shading_pct": 0,
+    "irradiance_w_m2": 1000,
+    "panel_area_m2": 1.6
+  },
+
+  "limits": {
+    "angle_deg": [0, 90],
+    "shading_pct": [0, 100],
+    "irradiance_w_m2": [0, 1500],
+    "panel_area_m2": [0.01, 100]
+  }
+}

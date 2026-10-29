@@ -1,0 +1,67 @@
+{
+  "project": "SunPredict: Solar Efficiency Intelligence",
+  "created_at": "2026-10-29 15:33:15",
+  "best_model_name": "Random Forest Regressor",
+  "training_samples": 13741,
+  "calibration_samples": 6228,
+  "test_samples": 6228,
+  "target_variable": "JV_default_PCE",
+  "target_unit": "%",
+  "test_metrics": {
+    "mae": 2.615,
+    "rmse": 3.5008,
+    "r2": 0.5565
+  },
+  "conformal_test_coverage": {
+    "80": {
+      "desired_coverage_pct": 80,
+      "empirical_coverage_pct": 80.38,
+      "average_interval_width": 8.25,
+      "margin_q": 4.163
+    },
+    "90": {
+      "desired_coverage_pct": 90,
+      "empirical_coverage_pct": 90.08,
+      "average_interval_width": 11.24,
+      "margin_q": 5.692
+    },
+    "95": {
+      "desired_coverage_pct": 95,
+      "empirical_coverage_pct": 95.13,
+      "average_interval_width": 14.26,
+      "margin_q": 7.268
+    }
+  },
+  "features": {
+    "categorical": [
+      "Cell_architecture",
+      "Substrate_stack_sequence",
+      "ETL_stack_sequence",
+      "ETL_deposition_procedure",
+      "Perovskite_composition_a_ions",
+      "Perovskite_composition_b_ions",
+      "Perovskite_composition_c_ions",
+      "Perovskite_composition_short_form",
+      "Perovskite_deposition_procedure",
+      "Perovskite_deposition_solvents",
+      "HTL_stack_sequence",
+      "HTL_deposition_procedure",
+      "Backcontact_stack_sequence",
+      "Backcontact_deposition_procedure"
+    ],
+    "numerical": [
+      "annealing_temp",
+      "annealing_time",
+      "perovskite_thickness",
+      "backcontact_thickness",
+      "deposition_steps",
+      "quenching",
+      "encapsulation",
+      "has_additive",
+      "is_lead_free",
+      "is_mixed_cation",
+      "is_mixed_halide"
+    ]
+  },
+  "elapsed_seconds": 17.54
+}

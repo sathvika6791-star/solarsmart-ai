@@ -1,0 +1,2055 @@
+{
+  "n_training_rows_considered": 41519,
+  "categorical": {
+    "Cell_architecture": [
+      {
+        "value": "nip",
+        "count": 28966
+      },
+      {
+        "value": "pin",
+        "count": 12502
+      },
+      {
+        "value": "Back contacted",
+        "count": 33
+      }
+    ],
+    "Substrate_stack_sequence": [
+      {
+        "value": "SLG | FTO",
+        "count": 25638
+      },
+      {
+        "value": "SLG | ITO",
+        "count": 14533
+      },
+      {
+        "value": "PET | ITO",
+        "count": 371
+      },
+      {
+        "value": "PEN | ITO",
+        "count": 222
+      },
+      {
+        "value": "PET | IZO",
+        "count": 62
+      },
+      {
+        "value": "SLG | AZO",
+        "count": 45
+      },
+      {
+        "value": "SLG",
+        "count": 39
+      },
+      {
+        "value": "PET",
+        "count": 30
+      },
+      {
+        "value": "Ti-foil",
+        "count": 30
+      },
+      {
+        "value": "Ti",
+        "count": 27
+      },
+      {
+        "value": "PET | Ag-grid",
+        "count": 27
+      }
+    ],
+    "ETL_stack_sequence": [
+      {
+        "value": "TiO2-c | TiO2-mp",
+        "count": 11392
+      },
+      {
+        "value": "TiO2-c",
+        "count": 6736
+      },
+      {
+        "value": "PCBM-60",
+        "count": 3222
+      },
+      {
+        "value": "PCBM-60 | BCP",
+        "count": 2612
+      },
+      {
+        "value": "SnO2-np",
+        "count": 1611
+      },
+      {
+        "value": "C60 | BCP",
+        "count": 1474
+      },
+      {
+        "value": "SnO2-c",
+        "count": 1348
+      },
+      {
+        "value": "TiO2-c | TiO2-mp | ZrO2-mp",
+        "count": 630
+      },
+      {
+        "value": "ZnO-c",
+        "count": 474
+      },
+      {
+        "value": "PCBM-60 | C60 | BCP",
+        "count": 451
+      },
+      {
+        "value": "PCBM-60 | LiF",
+        "count": 425
+      },
+      {
+        "value": "PCBM-60 | Bphen",
+        "count": 422
+      },
+      {
+        "value": "ZnO-np",
+        "count": 350
+      },
+      {
+        "value": "C60",
+        "count": 325
+      },
+      {
+        "value": "TiO2-c | TiO2-nw",
+        "count": 302
+      },
+      {
+        "value": "TiO2-c | PCBM-60",
+        "count": 287
+      },
+      {
+        "value": "PCBM-60 | ZnO-np",
+        "count": 283
+      },
+      {
+        "value": "none",
+        "count": 272
+      },
+      {
+        "value": "TiO2-np",
+        "count": 253
+      },
+      {
+        "value": "PCBM-60 | PEI",
+        "count": 210
+      },
+      {
+        "value": "PCBM-60 | bis-C60",
+        "count": 202
+      },
+      {
+        "value": "TiO2-c | Al2O3-mp",
+        "count": 185
+      },
+      {
+        "value": "TiO2-c | TiO2-mp | Al2O3-mp",
+        "count": 183
+      },
+      {
+        "value": "SnO2-c | PCBM-60",
+        "count": 173
+      },
+      {
+        "value": "ZnO-c | ZnO-nw",
+        "count": 129
+      },
+      {
+        "value": "TiO2-c | C60",
+        "count": 127
+      },
+      {
+        "value": "PCBM-70",
+        "count": 116
+      },
+      {
+        "value": "SnO2-c | C60-SAM",
+        "count": 98
+      },
+      {
+        "value": "PCBM-60 | C60",
+        "count": 95
+      },
+      {
+        "value": "PCBM-60 | Zr(acac)4",
+        "count": 94
+      },
+      {
+        "value": "TiO2-mp",
+        "count": 91
+      },
+      {
+        "value": "CdS",
+        "count": 90
+      },
+      {
+        "value": "PCBM-60 | PFN",
+        "count": 88
+      },
+      {
+        "value": "PCBM-60 | PEIE",
+        "count": 88
+      },
+      {
+        "value": "Nb2O5",
+        "count": 84
+      },
+      {
+        "value": "TiO2-nw",
+        "count": 79
+      },
+      {
+        "value": "PCBM-60 | AZO-np",
+        "count": 78
+      },
+      {
+        "value": "PCBM-60 | BCP | LiF",
+        "count": 71
+      },
+      {
+        "value": "PCBM-60 | Rhodamine 101",
+        "count": 69
+      },
+      {
+        "value": "SnO2-c | C60",
+        "count": 68
+      },
+      {
+        "value": "TiO2-c | SnO2-np",
+        "count": 56
+      },
+      {
+        "value": "SnO2-np | PCBM-60",
+        "count": 50
+      },
+      {
+        "value": "C60 | Bphen",
+        "count": 49
+      },
+      {
+        "value": "TiO2-c | PCBA",
+        "count": 49
+      },
+      {
+        "value": "C60 | bis-C60",
+        "count": 49
+      },
+      {
+        "value": "SnO2-c | TiO2-mp",
+        "count": 48
+      },
+      {
+        "value": "TiO2-c | TiO2-np",
+        "count": 47
+      },
+      {
+        "value": "PCBM-60 | Rhodamine 101 | LiF",
+        "count": 47
+      },
+      {
+        "value": "PCBM-60 | TiO2-c",
+        "count": 43
+      },
+      {
+        "value": "TiO2-nt",
+        "count": 40
+      },
+      {
+        "value": "C60 | BCP | LiF",
+        "count": 38
+      },
+      {
+        "value": "TiO2-c | SnO2-c",
+        "count": 36
+      },
+      {
+        "value": "PCBM-60 | ZnO",
+        "count": 35
+      },
+      {
+        "value": "Ca | C60",
+        "count": 34
+      },
+      {
+        "value": "ZnO-c | ZnO-nw | TiO2-c",
+        "count": 33
+      },
+      {
+        "value": "SnO2-QDs",
+        "count": 33
+      },
+      {
+        "value": "TiO2-c | TiO2-nanofibers",
+        "count": 33
+      },
+      {
+        "value": "SnO2-np | C60",
+        "count": 32
+      },
+      {
+        "value": "PCBM-60 | TIPD",
+        "count": 32
+      },
+      {
+        "value": "TiO2-c | TiO2-mp | SnO2-c",
+        "count": 32
+      },
+      {
+        "value": "PCBM-60; F8TBT",
+        "count": 32
+      },
+      {
+        "value": "ZnO-np | C60",
+        "count": 31
+      },
+      {
+        "value": "ZnO-c | ZnO-mp",
+        "count": 31
+      },
+      {
+        "value": "TiO2-c | ZnO-c",
+        "count": 31
+      },
+      {
+        "value": "ZnO-c | TiO2-c",
+        "count": 31
+      },
+      {
+        "value": "ZnO",
+        "count": 30
+      },
+      {
+        "value": "PCBM-70 | C60 | BCP",
+        "count": 30
+      },
+      {
+        "value": "ZnO-nw",
+        "count": 29
+      },
+      {
+        "value": "SnO2",
+        "count": 28
+      },
+      {
+        "value": "BCP; PCBM-60",
+        "count": 28
+      },
+      {
+        "value": "SnO2-c | SnO2-mp",
+        "count": 27
+      },
+      {
+        "value": "SnO2-c | SnO2-c",
+        "count": 27
+      },
+      {
+        "value": "ZnO-np | SnO2-np",
+        "count": 26
+      },
+      {
+        "value": "ICBA | C60 | BCP",
+        "count": 25
+      },
+      {
+        "value": "SnO2-c | TiO2-mp | ZrO2-mp",
+        "count": 25
+      }
+    ],
+    "ETL_deposition_procedure": [
+      {
+        "value": "Spin-coating",
+        "count": 12038
+      },
+      {
+        "value": "Spin-coating | Spin-coating",
+        "count": 11488
+      },
+      {
+        "value": "Spray-pyrolys | Spin-coating",
+        "count": 4499
+      },
+      {
+        "value": "Evaporation | Evaporation",
+        "count": 1683
+      },
+      {
+        "value": "Spin-coating | Evaporation",
+        "count": 1487
+      },
+      {
+        "value": "CBD",
+        "count": 1084
+      },
+      {
+        "value": "Spray-pyrolys",
+        "count": 906
+      },
+      {
+        "value": "Spin-coating | Evaporation | Evaporation",
+        "count": 707
+      },
+      {
+        "value": "Spin-coating | Spin-coating | Spin-coating",
+        "count": 515
+      },
+      {
+        "value": "Spray-pyrolys | Screen printing | Screen printing",
+        "count": 428
+      },
+      {
+        "value": "ALD | Spin-coating",
+        "count": 385
+      },
+      {
+        "value": "Evaporation",
+        "count": 336
+      },
+      {
+        "value": "Hydrothermal",
+        "count": 242
+      },
+      {
+        "value": "Spin-coating | Hydrothermal",
+        "count": 223
+      },
+      {
+        "value": "Sputtering",
+        "count": 217
+      },
+      {
+        "value": "CBD | Spin-coating",
+        "count": 193
+      },
+      {
+        "value": "ALD",
+        "count": 172
+      },
+      {
+        "value": "Dipp-coating",
+        "count": 152
+      },
+      {
+        "value": "Sputtering | Spin-coating",
+        "count": 147
+      },
+      {
+        "value": "Spin-coating | Spin-coating | Evaporation",
+        "count": 137
+      },
+      {
+        "value": "E-beam evaporation",
+        "count": 125
+      },
+      {
+        "value": "Spray-pyrolys | Spin-coating | Spin-coating",
+        "count": 119
+      },
+      {
+        "value": "Spray-pyrolys | Screen printing",
+        "count": 116
+      },
+      {
+        "value": "Spin-coating >> CBD | Spin-coating",
+        "count": 91
+      },
+      {
+        "value": "Dipp-coating | Spin-coating",
+        "count": 90
+      },
+      {
+        "value": "Magnetron sputtering",
+        "count": 82
+      },
+      {
+        "value": "E-beam evaporation | Spin-coating",
+        "count": 70
+      },
+      {
+        "value": "Spin-coating | Spin-coating >> CBD",
+        "count": 62
+      },
+      {
+        "value": "Spin-coating | Dipp-coating",
+        "count": 61
+      },
+      {
+        "value": "Spin-coating | Screen printing",
+        "count": 60
+      },
+      {
+        "value": "Spin-coating | Spin-coating | Dipp-coating",
+        "count": 57
+      },
+      {
+        "value": "CBD | Hydrothermal",
+        "count": 56
+      },
+      {
+        "value": "Spin-coating | CBD",
+        "count": 56
+      },
+      {
+        "value": "Evaporation | Evaporation | Evaporation",
+        "count": 55
+      },
+      {
+        "value": "Spin-coating >> CBD",
+        "count": 50
+      },
+      {
+        "value": "Doctor blading",
+        "count": 50
+      },
+      {
+        "value": "Spin-coating | Doctor blading | Doctor blading",
+        "count": 50
+      },
+      {
+        "value": "Unknown | Spin-coating",
+        "count": 49
+      },
+      {
+        "value": "Slot-die coating",
+        "count": 49
+      },
+      {
+        "value": "Spin-coating | Screen printing | Screen printing",
+        "count": 47
+      },
+      {
+        "value": "Spin-coating | ALD",
+        "count": 46
+      },
+      {
+        "value": "Pulsed laser deposition",
+        "count": 46
+      },
+      {
+        "value": "Evaporation | Spin-coating",
+        "count": 45
+      },
+      {
+        "value": "Magnetron sputtering | Spin-coating",
+        "count": 45
+      },
+      {
+        "value": "Electrodeposition | Spin-coating",
+        "count": 44
+      },
+      {
+        "value": "Electrodeposition",
+        "count": 41
+      },
+      {
+        "value": "Spin-coating | Screen printing >> CBD",
+        "count": 40
+      },
+      {
+        "value": "Spin-coating | Unknown",
+        "count": 38
+      },
+      {
+        "value": "Electrospraying | Hydrothermal",
+        "count": 38
+      },
+      {
+        "value": "Unknown | Unknown",
+        "count": 34
+      },
+      {
+        "value": "Spray-pyrolys | Spray-pyrolys",
+        "count": 34
+      },
+      {
+        "value": "Spray-pyrolys | Screen printnig | Screen printing",
+        "count": 32
+      },
+      {
+        "value": "Spin-coating | Spin-coating | ALD",
+        "count": 32
+      },
+      {
+        "value": "Screen printing | Screen printing | Screen printing",
+        "count": 31
+      },
+      {
+        "value": "Hydrothermal | Spin-coating",
+        "count": 31
+      },
+      {
+        "value": "Spin-coating | Doctor blading",
+        "count": 30
+      },
+      {
+        "value": "RF sputtering",
+        "count": 30
+      },
+      {
+        "value": "CBD | Spin-coating >> CBD",
+        "count": 29
+      },
+      {
+        "value": "Electrochemical anodization",
+        "count": 29
+      },
+      {
+        "value": "Spray-pyrolys | Doctor blading",
+        "count": 27
+      },
+      {
+        "value": "Spin-coating | Hydrothermal | Spin-coating",
+        "count": 27
+      },
+      {
+        "value": "Screen printing | Screen printing",
+        "count": 26
+      },
+      {
+        "value": "Hydrothermal | Hydrothermal",
+        "count": 25
+      },
+      {
+        "value": "Spray-pyrolys >> Hydrothermal | Spin-coating",
+        "count": 25
+      }
+    ],
+    "Perovskite_composition_a_ions": [
+      {
+        "value": "MA",
+        "count": 28072
+      },
+      {
+        "value": "FA; MA",
+        "count": 3855
+      },
+      {
+        "value": "Cs; FA; MA",
+        "count": 3708
+      },
+      {
+        "value": "Cs",
+        "count": 2020
+      },
+      {
+        "value": "Cs; FA",
+        "count": 1002
+      },
+      {
+        "value": "FA",
+        "count": 963
+      },
+      {
+        "value": "BA; MA",
+        "count": 209
+      },
+      {
+        "value": "Cs; MA",
+        "count": 132
+      },
+      {
+        "value": "(PEA); MA",
+        "count": 127
+      },
+      {
+        "value": "GU; MA",
+        "count": 56
+      },
+      {
+        "value": "Ag; Cs",
+        "count": 46
+      },
+      {
+        "value": "Ag",
+        "count": 44
+      },
+      {
+        "value": "(5-AVA); MA",
+        "count": 43
+      },
+      {
+        "value": "HA; MA",
+        "count": 36
+      },
+      {
+        "value": "(NH4); FA; MA",
+        "count": 30
+      },
+      {
+        "value": "(PDMA); FA",
+        "count": 30
+      },
+      {
+        "value": "Cs | Cs",
+        "count": 26
+      }
+    ],
+    "Perovskite_composition_b_ions": [
+      {
+        "value": "Pb",
+        "count": 39504
+      },
+      {
+        "value": "Sn",
+        "count": 629
+      },
+      {
+        "value": "Pb; Sn",
+        "count": 496
+      },
+      {
+        "value": "Bi",
+        "count": 258
+      },
+      {
+        "value": "Pb | Pb",
+        "count": 236
+      },
+      {
+        "value": "Sb",
+        "count": 84
+      },
+      {
+        "value": "Pb; Sb",
+        "count": 34
+      }
+    ],
+    "Perovskite_composition_c_ions": [
+      {
+        "value": "I",
+        "count": 31349
+      },
+      {
+        "value": "Br; I",
+        "count": 8836
+      },
+      {
+        "value": "Br",
+        "count": 932
+      },
+      {
+        "value": "I | I",
+        "count": 86
+      },
+      {
+        "value": "Br; I | I",
+        "count": 81
+      },
+      {
+        "value": "Cl",
+        "count": 35
+      },
+      {
+        "value": "O",
+        "count": 32
+      },
+      {
+        "value": "Br; I | Br; I",
+        "count": 31
+      }
+    ],
+    "Perovskite_composition_short_form": [
+      {
+        "value": "MAPbI",
+        "count": 26547
+      },
+      {
+        "value": "CsFAMAPbBrI",
+        "count": 3528
+      },
+      {
+        "value": "FAMAPbBrI",
+        "count": 2798
+      },
+      {
+        "value": "FAMAPbI",
+        "count": 897
+      },
+      {
+        "value": "CsPbBrI",
+        "count": 883
+      },
+      {
+        "value": "MAPbBrI",
+        "count": 609
+      },
+      {
+        "value": "CsFAPbBrI",
+        "count": 556
+      },
+      {
+        "value": "FAPbI",
+        "count": 549
+      },
+      {
+        "value": "CsPbBr",
+        "count": 433
+      },
+      {
+        "value": "CsPbI",
+        "count": 426
+      },
+      {
+        "value": "CsFAPbI",
+        "count": 361
+      },
+      {
+        "value": "MAPbBr",
+        "count": 297
+      },
+      {
+        "value": "FASnI",
+        "count": 201
+      },
+      {
+        "value": "BAMAPbI",
+        "count": 198
+      },
+      {
+        "value": "MAPbSnI",
+        "count": 149
+      },
+      {
+        "value": "(PEA)MAPbI",
+        "count": 122
+      },
+      {
+        "value": "CsFAMAPbI",
+        "count": 104
+      },
+      {
+        "value": "MABiI",
+        "count": 92
+      },
+      {
+        "value": "FAPbBrI",
+        "count": 91
+      },
+      {
+        "value": "CsMAPbI",
+        "count": 86
+      },
+      {
+        "value": "FAMAPbSnI",
+        "count": 82
+      },
+      {
+        "value": "CsSnI",
+        "count": 81
+      },
+      {
+        "value": "CsFAPbSnI",
+        "count": 64
+      },
+      {
+        "value": "MASnI",
+        "count": 59
+      },
+      {
+        "value": "GUMAPbI",
+        "count": 56
+      },
+      {
+        "value": "FAMASnI",
+        "count": 51
+      },
+      {
+        "value": "FAPbSnI",
+        "count": 43
+      },
+      {
+        "value": "AgCsBiBr",
+        "count": 43
+      },
+      {
+        "value": "(5-AVA)MAPbI",
+        "count": 43
+      },
+      {
+        "value": "AgBiI",
+        "count": 41
+      },
+      {
+        "value": "CsBiI",
+        "count": 40
+      },
+      {
+        "value": "CsFAMAPbSnI",
+        "count": 38
+      },
+      {
+        "value": "FAPbBr",
+        "count": 37
+      },
+      {
+        "value": "MAPbSnBrI",
+        "count": 34
+      },
+      {
+        "value": "MAPbSbI",
+        "count": 33
+      },
+      {
+        "value": "MASnBrI",
+        "count": 31
+      },
+      {
+        "value": "HAMAPbI",
+        "count": 31
+      },
+      {
+        "value": "(NH4)FAMAPbBrI",
+        "count": 30
+      },
+      {
+        "value": "(PDMA)FAPbI",
+        "count": 30
+      },
+      {
+        "value": "CsSbI",
+        "count": 29
+      },
+      {
+        "value": "MASbI",
+        "count": 29
+      },
+      {
+        "value": "CsMAPbBrI",
+        "count": 26
+      },
+      {
+        "value": "CsFAMAPbSnBrI",
+        "count": 26
+      }
+    ],
+    "Perovskite_deposition_procedure": [
+      {
+        "value": "Spin-coating",
+        "count": 28402
+      },
+      {
+        "value": "Spin-coating >> Spin-coating",
+        "count": 5315
+      },
+      {
+        "value": "Spin-coating >> CBD",
+        "count": 3141
+      },
+      {
+        "value": "Drop-infiltration",
+        "count": 615
+      },
+      {
+        "value": "Spin-coating >> Gas reaction",
+        "count": 543
+      },
+      {
+        "value": "Co-evaporation",
+        "count": 397
+      },
+      {
+        "value": "Doctor blading",
+        "count": 262
+      },
+      {
+        "value": "Slot-die coating",
+        "count": 141
+      },
+      {
+        "value": "Evaporation >> Gas reaction",
+        "count": 134
+      },
+      {
+        "value": "Evaporation >> Evaporation",
+        "count": 132
+      },
+      {
+        "value": "Evaporation >> Spin-coating",
+        "count": 126
+      },
+      {
+        "value": "Spray-coating",
+        "count": 118
+      },
+      {
+        "value": "Spin-coating >> Spin-coating >> Spin-coating",
+        "count": 89
+      },
+      {
+        "value": "Drop-infiltration >> CBD",
+        "count": 81
+      },
+      {
+        "value": "Ultrasonic spray",
+        "count": 80
+      },
+      {
+        "value": "Spin-coating >> Recrystallization",
+        "count": 69
+      },
+      {
+        "value": "Spin-coating | Spin-coating",
+        "count": 65
+      },
+      {
+        "value": "Dropcasting",
+        "count": 61
+      },
+      {
+        "value": "Evaporation >> CBD",
+        "count": 59
+      },
+      {
+        "value": "Inkjet printing",
+        "count": 59
+      },
+      {
+        "value": "Spin-coating >> Spray-coating",
+        "count": 55
+      },
+      {
+        "value": "Spin-coating >> Dipp-coating",
+        "count": 55
+      },
+      {
+        "value": "Spin-coating >> Evaporation",
+        "count": 53
+      },
+      {
+        "value": "Evaporation",
+        "count": 46
+      },
+      {
+        "value": "Spin-coating >> Spin-coating >> CBD",
+        "count": 46
+      },
+      {
+        "value": "Dropcasting >> CBD",
+        "count": 43
+      },
+      {
+        "value": "Electrospraying",
+        "count": 36
+      },
+      {
+        "value": "Spin-coating >> CBD >> Spin-coating",
+        "count": 32
+      },
+      {
+        "value": "Spin-coating >> Diffusion-gas reaction",
+        "count": 30
+      },
+      {
+        "value": "Spin-coating >> Ion exchange",
+        "count": 29
+      },
+      {
+        "value": "Spin-coating >> Dropcasting",
+        "count": 28
+      },
+      {
+        "value": "Single crystal growth",
+        "count": 26
+      }
+    ],
+    "Perovskite_deposition_solvents": [
+      {
+        "value": "DMF; DMSO",
+        "count": 13569
+      },
+      {
+        "value": "DMF",
+        "count": 8585
+      },
+      {
+        "value": "DMF >> IPA",
+        "count": 5483
+      },
+      {
+        "value": "DMSO; GBL",
+        "count": 2934
+      },
+      {
+        "value": "DMF; DMSO >> IPA",
+        "count": 1833
+      },
+      {
+        "value": "DMSO",
+        "count": 1704
+      },
+      {
+        "value": "GBL",
+        "count": 958
+      },
+      {
+        "value": "DMF >> none",
+        "count": 611
+      },
+      {
+        "value": "none",
+        "count": 502
+      },
+      {
+        "value": "DMF >> Methanol",
+        "count": 314
+      },
+      {
+        "value": "none >> none",
+        "count": 288
+      },
+      {
+        "value": "DMF; GBL",
+        "count": 274
+      },
+      {
+        "value": "DMSO >> IPA",
+        "count": 233
+      },
+      {
+        "value": "none >> IPA",
+        "count": 174
+      },
+      {
+        "value": "DMF; NMP",
+        "count": 156
+      },
+      {
+        "value": "DMF >> Ethanol",
+        "count": 134
+      },
+      {
+        "value": "acetonitrile; Methylamine",
+        "count": 86
+      },
+      {
+        "value": "DMF >> IPA >> IPA",
+        "count": 75
+      },
+      {
+        "value": "DMF; DMSO >> none",
+        "count": 73
+      },
+      {
+        "value": "DMF; DMSO; GBL",
+        "count": 64
+      },
+      {
+        "value": "DMF >> DMF; IPA",
+        "count": 56
+      },
+      {
+        "value": "Dimethylacetamide; NMP",
+        "count": 55
+      },
+      {
+        "value": "DMF >> Unknown",
+        "count": 54
+      },
+      {
+        "value": "DMF; NNP",
+        "count": 49
+      },
+      {
+        "value": "Cyclohexyl-2-pyrrolidone; DMF",
+        "count": 44
+      },
+      {
+        "value": "DMF; DMSO >> Ethanol; IPA",
+        "count": 42
+      },
+      {
+        "value": "GBL; NMP",
+        "count": 42
+      },
+      {
+        "value": "DMF >> DMF",
+        "count": 42
+      },
+      {
+        "value": "H2O >> IPA",
+        "count": 42
+      },
+      {
+        "value": "DMF; DMSO >> none >> IPA",
+        "count": 39
+      },
+      {
+        "value": "DMF >> DMF >> IPA",
+        "count": 39
+      },
+      {
+        "value": "DMF; DMSO; NMP",
+        "count": 37
+      },
+      {
+        "value": "DMF | IPA",
+        "count": 35
+      },
+      {
+        "value": "NMP",
+        "count": 34
+      },
+      {
+        "value": "none >> none >> none",
+        "count": 34
+      },
+      {
+        "value": "acetonitrile",
+        "count": 32
+      },
+      {
+        "value": "DMF >> Cyclohexane; IPA",
+        "count": 32
+      },
+      {
+        "value": "DMF; DMSO | IPA",
+        "count": 30
+      },
+      {
+        "value": "DMF; DMSO >> IPA >> IPA",
+        "count": 27
+      },
+      {
+        "value": "DMSO >> none",
+        "count": 27
+      },
+      {
+        "value": "Methylammonium acetate",
+        "count": 27
+      },
+      {
+        "value": "DMF; DMSO >> Methanol",
+        "count": 27
+      },
+      {
+        "value": "DMF >> IPA >> none",
+        "count": 27
+      }
+    ],
+    "HTL_stack_sequence": [
+      {
+        "value": "Spiro-MeOTAD",
+        "count": 20431
+      },
+      {
+        "value": "PEDOT:PSS",
+        "count": 6475
+      },
+      {
+        "value": "none",
+        "count": 2572
+      },
+      {
+        "value": "PTAA",
+        "count": 1783
+      },
+      {
+        "value": "NiO-c",
+        "count": 1650
+      },
+      {
+        "value": "P3HT",
+        "count": 852
+      },
+      {
+        "value": "NiO-np",
+        "count": 396
+      },
+      {
+        "value": "CuSCN",
+        "count": 215
+      },
+      {
+        "value": "NiO",
+        "count": 153
+      },
+      {
+        "value": "NiMgLiO",
+        "count": 152
+      },
+      {
+        "value": "P3CT-Na",
+        "count": 131
+      },
+      {
+        "value": "CuPc",
+        "count": 123
+      },
+      {
+        "value": "PolyTPD",
+        "count": 111
+      },
+      {
+        "value": "NiO-mp",
+        "count": 102
+      },
+      {
+        "value": "CuI",
+        "count": 90
+      },
+      {
+        "value": "PTAA | PFN",
+        "count": 78
+      },
+      {
+        "value": "PEDOT",
+        "count": 58
+      },
+      {
+        "value": "P3CT-N",
+        "count": 53
+      },
+      {
+        "value": "Cu2O",
+        "count": 49
+      },
+      {
+        "value": "NiO-c | NiO-mp",
+        "count": 47
+      },
+      {
+        "value": "Spiro-MeOTAD | PEDOT:PSS",
+        "count": 47
+      },
+      {
+        "value": "PEDOT:PSS | PolyTPD",
+        "count": 45
+      },
+      {
+        "value": "Graphene oxide",
+        "count": 45
+      },
+      {
+        "value": "P3CT",
+        "count": 41
+      },
+      {
+        "value": "Spiro-MeOTAD | MoO3",
+        "count": 41
+      },
+      {
+        "value": "PCBM-60",
+        "count": 33
+      },
+      {
+        "value": "PEDOT:PSS | PEDOT:PSS",
+        "count": 31
+      },
+      {
+        "value": "NiMgLiO-c",
+        "count": 31
+      },
+      {
+        "value": "TAPC",
+        "count": 31
+      },
+      {
+        "value": "HTM",
+        "count": 28
+      },
+      {
+        "value": "PTB7",
+        "count": 28
+      },
+      {
+        "value": "MoO3",
+        "count": 27
+      },
+      {
+        "value": "MoO3 | PEDOT:PSS",
+        "count": 27
+      },
+      {
+        "value": "CuOx",
+        "count": 26
+      },
+      {
+        "value": "PTAA | PMMA",
+        "count": 26
+      },
+      {
+        "value": "P3CT-K",
+        "count": 26
+      },
+      {
+        "value": "NiO-c | PTAA",
+        "count": 25
+      },
+      {
+        "value": "TT1",
+        "count": 25
+      },
+      {
+        "value": "EH44",
+        "count": 25
+      },
+      {
+        "value": "TaTm | F6-TCNNQ; TaTm",
+        "count": 25
+      },
+      {
+        "value": "PDBD-T",
+        "count": 25
+      }
+    ],
+    "HTL_deposition_procedure": [
+      {
+        "value": "Spin-coating",
+        "count": 34913
+      },
+      {
+        "value": "Spin-coating | Spin-coating",
+        "count": 1311
+      },
+      {
+        "value": "Evaporation",
+        "count": 339
+      },
+      {
+        "value": "Spray-pyrolys",
+        "count": 256
+      },
+      {
+        "value": "Doctor blading",
+        "count": 179
+      },
+      {
+        "value": "Spin-coating | Evaporation",
+        "count": 145
+      },
+      {
+        "value": "Evaporation | Evaporation",
+        "count": 141
+      },
+      {
+        "value": "Spray-coating",
+        "count": 104
+      },
+      {
+        "value": "Sputtering",
+        "count": 94
+      },
+      {
+        "value": "Screen printing",
+        "count": 77
+      },
+      {
+        "value": "Electrodeposition",
+        "count": 73
+      },
+      {
+        "value": "Dropcasting",
+        "count": 65
+      },
+      {
+        "value": "ALD",
+        "count": 53
+      },
+      {
+        "value": "Ultrasonic spray",
+        "count": 50
+      },
+      {
+        "value": "E-beam evaporation",
+        "count": 49
+      },
+      {
+        "value": "Drop-infiltration",
+        "count": 46
+      },
+      {
+        "value": "Evaporation | Spin-coating",
+        "count": 45
+      },
+      {
+        "value": "Slot-die coating",
+        "count": 44
+      },
+      {
+        "value": "Electropolymerization",
+        "count": 36
+      }
+    ],
+    "Backcontact_stack_sequence": [
+      {
+        "value": "Au",
+        "count": 19986
+      },
+      {
+        "value": "Ag",
+        "count": 12785
+      },
+      {
+        "value": "Al",
+        "count": 3092
+      },
+      {
+        "value": "Carbon",
+        "count": 2074
+      },
+      {
+        "value": "MoO3 | Ag",
+        "count": 655
+      },
+      {
+        "value": "Cu",
+        "count": 504
+      },
+      {
+        "value": "Ca | Al",
+        "count": 306
+      },
+      {
+        "value": "MoO3 | Au",
+        "count": 117
+      },
+      {
+        "value": "MoO3 | Al",
+        "count": 115
+      },
+      {
+        "value": "AgAl",
+        "count": 77
+      },
+      {
+        "value": "Ag-nw",
+        "count": 66
+      },
+      {
+        "value": "ITO",
+        "count": 64
+      },
+      {
+        "value": "MoOx | Al",
+        "count": 57
+      },
+      {
+        "value": "MoOx | Ag",
+        "count": 55
+      },
+      {
+        "value": "PEDOT:PSS",
+        "count": 49
+      },
+      {
+        "value": "Pt | FTO",
+        "count": 48
+      },
+      {
+        "value": "Carbon-nt",
+        "count": 47
+      },
+      {
+        "value": "Au | Ag",
+        "count": 41
+      },
+      {
+        "value": "Ba | Ag",
+        "count": 38
+      },
+      {
+        "value": "Carbon | FTO | SLG",
+        "count": 38
+      },
+      {
+        "value": "MoO3 | Au | MoO3",
+        "count": 35
+      },
+      {
+        "value": "Ca | Ag",
+        "count": 29
+      },
+      {
+        "value": "Ag | Au",
+        "count": 26
+      },
+      {
+        "value": "Pt | FTO | SLG",
+        "count": 26
+      },
+      {
+        "value": "Graphite",
+        "count": 26
+      }
+    ],
+    "Backcontact_deposition_procedure": [
+      {
+        "value": "Evaporation",
+        "count": 36050
+      },
+      {
+        "value": "Evaporation | Evaporation",
+        "count": 1580
+      },
+      {
+        "value": "Doctor blading",
+        "count": 1156
+      },
+      {
+        "value": "Screen printing",
+        "count": 851
+      },
+      {
+        "value": "Sputtering",
+        "count": 243
+      },
+      {
+        "value": "Lamination",
+        "count": 227
+      },
+      {
+        "value": "Sandwiching",
+        "count": 136
+      },
+      {
+        "value": "Magnetron sputtering",
+        "count": 97
+      },
+      {
+        "value": "Evaporation | Evaporation | Evaporation",
+        "count": 81
+      },
+      {
+        "value": "E-beam evaporation",
+        "count": 79
+      },
+      {
+        "value": "Spray-coating",
+        "count": 71
+      },
+      {
+        "value": "Brush painting",
+        "count": 49
+      },
+      {
+        "value": "Dropcasting",
+        "count": 48
+      },
+      {
+        "value": "Spin-coating",
+        "count": 45
+      },
+      {
+        "value": "Evaporation | Sputtering",
+        "count": 30
+      },
+      {
+        "value": "Sputtering | Evaporation",
+        "count": 29
+      },
+      {
+        "value": "Inkjet printing",
+        "count": 28
+      }
+    ],
+    "Perovskite_additives_compounds": [
+      {
+        "value": "Cl",
+        "count": 5074
+      },
+      {
+        "value": "5-AVAI",
+        "count": 348
+      },
+      {
+        "value": "SnF2",
+        "count": 236
+      },
+      {
+        "value": "HI",
+        "count": 200
+      },
+      {
+        "value": "Rb",
+        "count": 175
+      },
+      {
+        "value": "Pb(SCN)2",
+        "count": 168
+      },
+      {
+        "value": "Acetate",
+        "count": 112
+      },
+      {
+        "value": "KI",
+        "count": 104
+      },
+      {
+        "value": "PbCl2",
+        "count": 89
+      },
+      {
+        "value": "Acetate; Cl",
+        "count": 88
+      },
+      {
+        "value": "RbI",
+        "count": 86
+      },
+      {
+        "value": "NH4Cl",
+        "count": 84
+      },
+      {
+        "value": "HCl",
+        "count": 79
+      },
+      {
+        "value": "MACl",
+        "count": 71
+      },
+      {
+        "value": "PEAI",
+        "count": 63
+      },
+      {
+        "value": "Pb(SCN)2; SnF2",
+        "count": 52
+      },
+      {
+        "value": "NH4SCN",
+        "count": 51
+      },
+      {
+        "value": "HPA",
+        "count": 47
+      },
+      {
+        "value": "K",
+        "count": 45
+      },
+      {
+        "value": "TBP",
+        "count": 44
+      },
+      {
+        "value": "PEG",
+        "count": 41
+      },
+      {
+        "value": "Thiourea",
+        "count": 40
+      },
+      {
+        "value": "Urea",
+        "count": 39
+      },
+      {
+        "value": "H2O",
+        "count": 37
+      },
+      {
+        "value": "SCN",
+        "count": 34
+      },
+      {
+        "value": "MAAc",
+        "count": 32
+      },
+      {
+        "value": "PCBM-60",
+        "count": 32
+      },
+      {
+        "value": "HBr",
+        "count": 32
+      },
+      {
+        "value": "CsI",
+        "count": 31
+      },
+      {
+        "value": "Cl; HI",
+        "count": 31
+      },
+      {
+        "value": "Ag",
+        "count": 31
+      },
+      {
+        "value": "Cl; DIO",
+        "count": 31
+      },
+      {
+        "value": "Hexamethylphosphoramide",
+        "count": 30
+      },
+      {
+        "value": "NH4I",
+        "count": 28
+      },
+      {
+        "value": "PVP",
+        "count": 27
+      },
+      {
+        "value": "MABr",
+        "count": 27
+      }
+    ]
+  },
+  "composition_map": {
+    "MAPbI": {
+      "a": "MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "CsFAMAPbBrI": {
+      "a": "Cs; FA; MA",
+      "b": "Pb",
+      "c": "Br; I"
+    },
+    "FAMAPbBrI": {
+      "a": "FA; MA",
+      "b": "Pb",
+      "c": "Br; I"
+    },
+    "FAMAPbI": {
+      "a": "FA; MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "CsPbBrI": {
+      "a": "Cs",
+      "b": "Pb",
+      "c": "Br; I"
+    },
+    "MAPbBrI": {
+      "a": "MA",
+      "b": "Pb",
+      "c": "Br; I"
+    },
+    "CsFAPbBrI": {
+      "a": "Cs; FA",
+      "b": "Pb",
+      "c": "Br; I"
+    },
+    "FAPbI": {
+      "a": "FA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "CsPbBr": {
+      "a": "Cs",
+      "b": "Pb",
+      "c": "Br"
+    },
+    "CsPbI": {
+      "a": "Cs",
+      "b": "Pb",
+      "c": "I"
+    },
+    "CsFAPbI": {
+      "a": "Cs; FA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "MAPbBr": {
+      "a": "MA",
+      "b": "Pb",
+      "c": "Br"
+    },
+    "FASnI": {
+      "a": "FA",
+      "b": "Sn",
+      "c": "I"
+    },
+    "BAMAPbI": {
+      "a": "BA; MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "MAPbSnI": {
+      "a": "MA",
+      "b": "Pb; Sn",
+      "c": "I"
+    },
+    "(PEA)MAPbI": {
+      "a": "(PEA); MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "CsFAMAPbI": {
+      "a": "Cs; FA; MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "MABiI": {
+      "a": "MA",
+      "b": "Bi",
+      "c": "I"
+    },
+    "FAPbBrI": {
+      "a": "FA",
+      "b": "Pb",
+      "c": "Br; I"
+    },
+    "CsMAPbI": {
+      "a": "Cs; MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "FAMAPbSnI": {
+      "a": "FA; MA",
+      "b": "Pb; Sn",
+      "c": "I"
+    },
+    "CsSnI": {
+      "a": "Cs",
+      "b": "Sn",
+      "c": "I"
+    },
+    "CsFAPbSnI": {
+      "a": "Cs; FA",
+      "b": "Pb; Sn",
+      "c": "I"
+    },
+    "MASnI": {
+      "a": "MA",
+      "b": "Sn",
+      "c": "I"
+    },
+    "GUMAPbI": {
+      "a": "GU; MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "FAMASnI": {
+      "a": "FA; MA",
+      "b": "Sn",
+      "c": "I"
+    },
+    "FAPbSnI": {
+      "a": "FA",
+      "b": "Pb; Sn",
+      "c": "I"
+    },
+    "AgCsBiBr": {
+      "a": "Ag; Cs",
+      "b": "Bi",
+      "c": "Br"
+    },
+    "(5-AVA)MAPbI": {
+      "a": "(5-AVA); MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "AgBiI": {
+      "a": "Ag",
+      "b": "Bi",
+      "c": "I"
+    },
+    "CsBiI": {
+      "a": "Cs",
+      "b": "Bi",
+      "c": "I"
+    },
+    "CsFAMAPbSnI": {
+      "a": "Cs; FA; MA",
+      "b": "Pb; Sn",
+      "c": "I"
+    },
+    "FAPbBr": {
+      "a": "FA",
+      "b": "Pb",
+      "c": "Br"
+    },
+    "MAPbSnBrI": {
+      "a": "MA",
+      "b": "Pb; Sn",
+      "c": "Br; I"
+    },
+    "MAPbSbI": {
+      "a": "MA",
+      "b": "Pb; Sb",
+      "c": "I"
+    },
+    "MASnBrI": {
+      "a": "MA",
+      "b": "Sn",
+      "c": "Br; I"
+    },
+    "HAMAPbI": {
+      "a": "HA; MA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "(NH4)FAMAPbBrI": {
+      "a": "(NH4); FA; MA",
+      "b": "Pb",
+      "c": "Br; I"
+    },
+    "(PDMA)FAPbI": {
+      "a": "(PDMA); FA",
+      "b": "Pb",
+      "c": "I"
+    },
+    "CsSbI": {
+      "a": "Cs",
+      "b": "Sb",
+      "c": "I"
+    },
+    "MASbI": {
+      "a": "MA",
+      "b": "Sb",
+      "c": "I"
+    },
+    "CsMAPbBrI": {
+      "a": "Cs; MA",
+      "b": "Pb",
+      "c": "Br; I"
+    },
+    "CsFAMAPbSnBrI": {
+      "a": "Cs; FA; MA",
+      "b": "Pb; Sn",
+      "c": "Br; I"
+    }
+  },
+  "numeric": {
+    "annealing_temp": {
+      "min": 5.0,
+      "p01": 50.0,
+      "median": 100.0,
+      "p99": 285.0,
+      "max": 500.0,
+      "n_valid": 38071,
+      "missing_fraction": 0.08304631614441582
+    },
+    "annealing_time": {
+      "min": 0.0,
+      "p01": 1.0,
+      "median": 20.0,
+      "p99": 180.0,
+      "max": 300.0,
+      "n_valid": 36989,
+      "missing_fraction": 0.10910667405284324
+    },
+    "perovskite_thickness": {
+      "min": 10.0,
+      "p01": 80.0,
+      "median": 350.0,
+      "p99": 1000.0,
+      "max": 2000.0,
+      "n_valid": 13052,
+      "missing_fraction": 0.6856379007201523
+    },
+    "backcontact_thickness": {
+      "min": 10.0,
+      "p01": 30.0,
+      "median": 100.0,
+      "p99": 1000.0,
+      "max": 1000.0,
+      "n_valid": 33696,
+      "missing_fraction": 0.18841975962812207
+    }
+  },
+  "modal_deposition_steps": 1
+}

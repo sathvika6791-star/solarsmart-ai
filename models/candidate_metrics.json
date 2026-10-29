@@ -1,0 +1,37 @@
+[
+  {
+    "Model": "Dummy (Baseline)",
+    "Val MAE": 4.349,
+    "Val RMSE": 5.254,
+    "Val R2": -0.003,
+    "Train Time (s)": 0.0
+  },
+  {
+    "Model": "Ridge Regression",
+    "Val MAE": 3.133,
+    "Val RMSE": 4.019,
+    "Val R2": 0.413,
+    "Train Time (s)": 0.11
+  },
+  {
+    "Model": "HistGradientBoosting",
+    "Val MAE": 2.84,
+    "Val RMSE": 3.731,
+    "Val R2": 0.494,
+    "Train Time (s)": 2.71
+  },
+  {
+    "Model": "Extra Trees Regressor",
+    "Val MAE": 2.776,
+    "Val RMSE": 3.757,
+    "Val R2": 0.487,
+    "Train Time (s)": 5.9
+  },
+  {
+    "Model": "Random Forest Regressor",
+    "Val MAE": 2.654,
+    "Val RMSE": 3.553,
+    "Val R2": 0.541,
+    "Train Time (s)": 3.35
+  }
+]
